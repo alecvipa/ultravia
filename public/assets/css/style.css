@@ -1,0 +1,162 @@
+.fonts3 {
+    font-family: 'Source Sans Pro', sans-serif !important;
+
+}
+
+.footer {
+    padding-top: 3%;
+
+}
+.navBar{
+   
+    color: white;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.nav-link:hover{
+    color:  #fbcb43 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.centerText{
+    text-align: center !important;
+}
+
+.video1 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.video2 {
+    height: 100%;
+    width: 100%;
+
+}
+
+.somosDiv {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+.textSomos, .titleSomos {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cargaBanner{
+    height: 30rem;
+    background-image: url("/assets/images/carga.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 43%;
+}
+.camionDiv{
+    height: 30rem;
+    background-image: url("/assets/images/camion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 43%;
+
+}
+
+.privacidadBanner{
+    height: 30rem;
+    background-image: url("/assets/images/camion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 43%;
+}
+.cargaTitles{
+    margin-top: 5%;
+}
+.imageColorLogo{
+    max-width: 32% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.overflowRes{
+    height: 55rem !important;
+}
+.cargaTitles2{
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .titlePorque{
+        font-size: 2.5rem !important;
+    }
+    .cargaTitles2{
+        font-size: 40px !important;
+        
+    }
+
+    .footer {
+        /* margin-top: -9%; */
+        padding-bottom: 2%;
+    }
+
+    .quieneSomosTitle {
+        margin-top: -6%;
+        font-size: 3rem;
+    }
+
+    .video2 {
+        display: none;
+    }
+
+    .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+    }
+
+    .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+    }
+}
+
+@media(max-width:991px) {
+    .textSomos, .titleSomos{
+        width: 100%;
+    }
+    .imageColorLogo{
+        max-width: 50% !important;
+    }
+    .overflowRes{
+        height: 73rem !important;
+    }
+    .responsiveTitle{
+        margin-top: -53% !important;
+        margin-bottom: -30% !important;
+    }
+    .camionDiv{
+        height: 19rem;
+    }
+    .cargaBanner{
+        height: 15rem;
+        background-position: 0% 43%;
+    }
+
+    .footer {
+        padding-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .responsiveMarginCard {
+        margin-top: 5%;
+    }
+
+    .video1 {
+        display: none;
+
+    }
+}
