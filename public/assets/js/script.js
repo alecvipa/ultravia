@@ -7,7 +7,7 @@ function navB() {
     }
     else{
 
-        document.getElementById("navBars").style.backgroundColor = "#2153a1 " ;
+        document.getElementById("navBars").style.backgroundColor = "#c0ddff " ;
        
         
     }
